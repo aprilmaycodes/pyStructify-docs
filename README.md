@@ -6,7 +6,7 @@ Welcome to the documentation repository for PyStructify, a DearPyGUI application
 
 This repository contains (or will, once it's finished) the documentation for PyStructify.
 
-The full documentation is hosted on GitHub Pages and is available at: [PyStructify Docs](https://aprilmaycodes.github.io/pystructify-docs/)
+The full documentation is hosted on GitHub Pages and is available at: [PyStructify Docs](https://AprilMayCodes.github.io/pyStructify-docs/)
 
 ## Contact
 

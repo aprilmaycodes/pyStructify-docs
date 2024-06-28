@@ -1,0 +1,91 @@
+site_name: pyStructify Documentation
+site_url: https://aprilmaycodes.github.io/pystructify-docs/
+theme:
+  name: material
+  palette: 
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: deep purple
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: teal
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Open Sans
+    code: B612 Mono
+  language: en
+  logo: img/pyStructify.png
+  favicon: img/pyStructify.png
+  icon:
+    menu: material/menu-open
+    search: material/text-search
+    share: material/share
+    close: material/close-thick
+    top: octicons/move-to-top-16
+    repo: fontawesome/brands/github
+    view: material/source-branch
+    previous: material/skip-previous-outline
+    next: material/skip-next-outline
+  features:
+    
+    - navigation.top
+    - search.highlight
+    - navigation.footer
+    - content.action.view
+    - navigation.sections
+    - navigation.expang
+
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AprilMayCodes/pyStructify
+      name: GitHub
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/aprilmaycodes
+      name: Twitter
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/profile.php?id=61560921234894
+      name: Facebook
+    - icon: material/web
+      link: https://aprilmaycodes.com/
+      name: Website
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@aprilmaycodes
+      name: YouTube
+plugins:
+  - material/search
+copyright: Copyright &copy; 2024 April Myles
+repo_url: https://github.com/AprilMayCodes/pyStructify-docs
+edit_uri: edit/main/docs/
+
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - New Projects: user-guide/new-projects.md
+    - Flask Projects: user-guide/flask-projects.md
+    - General Projects: user-guide/general-projects.md
+    - Preferences: user-guide/preferences.md
+    - Other Pages: user-guide/other-pages.md
+  - About:
+    - About pyStructify: about/about.md
+    - License: about/license.md
